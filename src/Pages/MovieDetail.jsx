@@ -13,7 +13,7 @@ const MovieDetail = () => {
     dispatch(fetchMovies());
   }, [dispatch]);
 
-  // Find the movie with the matching ID
+ 
   const movie = movies.find((movie) => movie.id === parseInt(id));
   console.log(movie);
 

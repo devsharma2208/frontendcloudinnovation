@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const MovieCard = ({ movie }) => {
   const navigate = useNavigate();
-  // const  token  = useSelector((state) => state.token);
+  // const  {token}  = useSelector((state) => state.auth);
   const token = sessionStorage.getItem("token");
   return (
     <div
